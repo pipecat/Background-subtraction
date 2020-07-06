@@ -28,7 +28,7 @@
 4.  A method from Hao-Zhi Huang
     - 论文信息：[Huang H, Fang X, Ye Y, et al. Practical automatic background substitution for live video[J]. Computational Visual Media, 2017, 3(3): 273-284.](https://link.springer.com/article/10.1007/s41095-016-0074-0)
     - 开源实现：暂无
-    - 特点：使用色线模型对北京切割的高斯混合模型进行了改进，使用Alpha遮罩细化分割边界，添加了自动前景颜色调整的步骤。性能：640*480， Intel 3.4 GHz Core i7-3770， 10fps（仅cpu），可以通过GPU并行化以实时帧速率运行。
+    - 特点：使用色线模型对背景切割的高斯混合模型进行了改进，使用Alpha遮罩细化分割边界，添加了自动前景颜色调整的步骤。性能：640*480， Intel 3.4 GHz Core i7-3770， 10fps（仅cpu），可以通过GPU并行化以实时帧速率运行。
     - 效果展示（来自论文附件）：[41095_2016_74_MOESM1_ESM.mp4](https://static-content.springer.com/esm/art%3A10.1007%2Fs41095-016-0074-0/MediaObjects/41095_2016_74_MOESM1_ESM.mp4)
     - 评价：满足我们的场景，并拥有相对可以接受的性能。性能瓶颈主要在alpha遮罩上，如果不使用alpha遮罩细化边框可以拥有更好的性能。
 
