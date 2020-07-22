@@ -7,8 +7,7 @@
 (https://github.com/CoinCheung/BiSeNet)<br>
     BiSeNet_V2论文：[https://arxiv.org/pdf/2004.02147.pdf](https://arxiv.org/pdf/2004.02147.pdf)<br>
     效果：test_01.jpg -> res.jpg(更改数据集后可能改善)
-- 实时语义分割（Semantic segmentation） -> 实时人像分割（Portrait segmentation）<br>
-    把 Real time semantic segmentatio 的问题细化到 Real time portrait segmentation 上，找到了相关论文与项目
+- 把实时语义分割(Real time semantic segmentation)的问题细化到(Real time portrait segmentation)上，找到了相关论文与项目
     - [https://github.com/lizhengwei1992/Fast_Portrait_Segmentation](https://github.com/lizhengwei1992/Fast_Portrait_Segmentation)  实时转化为黑白背景
     - [https://github.com/anilsathyan7/Portrait-Segmentation](https://github.com/anilsathyan7/Portrait-Segmentation) 实时人像分割
     - [https://arxiv.org/pdf/1911.09099v4.pdf](https://arxiv.org/pdf/1911.09099v4.pdf) PortraitNet
